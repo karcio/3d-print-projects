@@ -59,3 +59,9 @@ module nano4Hole(){
         nano2Hole();
     }
 }
+
+/* DHT 11 */
+module dht11(){
+     cube([16, 12.6, 5.83], center = true); 
+}
+dht11();
